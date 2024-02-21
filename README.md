@@ -2,10 +2,10 @@
 A do while implementation for python
 
 Usage:
-
+```ipython
 In [1]: from do_while import DoWhile
 
-In [2]: with DoWhile(lambda : x>2) as dw:
+In [2]: with DoWhile(lambda : x<1) as dw:
 
     ...:     x = 1
     
@@ -16,3 +16,4 @@ In [2]: with DoWhile(lambda : x>2) as dw:
 In [3]: x
 
 Out[3]: 2
+```
