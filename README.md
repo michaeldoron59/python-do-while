@@ -4,6 +4,7 @@ A do while implementation for python
 Usage:
 
 In [1]: from do_while import DoWhile
+
 In [2]: with DoWhile(lambda : x>2) as dw:
     ...:     x = 1
     ...:     while dw():
